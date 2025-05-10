@@ -52,7 +52,7 @@ export default function Hero({
 
       {/* Navbar */}
       <div className="absolute top-0 left-0 w-full z-20">
-        <Navbar title="Lynx3PL" routes={routes} />
+        <Navbar title="Metalfire Churrasqueiras" routes={routes} />
       </div>
 
       {/* Contenido */}

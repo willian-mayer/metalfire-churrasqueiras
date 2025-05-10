@@ -1,10 +1,17 @@
-import Navbar from "@/components/Navbar";
+import Hero from "@/components/hero";
 import routesJson from "@/data/routes.json"
 import { Route } from "@/types/routes"
+import heroData from "@/data/hero.json"
+
 export default function Home() {
   return (
     <div>
-      <Navbar title="Metalfire Churrasqueiras" routes={routesJson as Route[]} />
+      <Hero
+          title={heroData.title}
+          description={heroData.description}
+          backgroundVideo={heroData.backgroundVideo}
+          routes={routesJson as Route[]} 
+        />
     </div>
   );
 }

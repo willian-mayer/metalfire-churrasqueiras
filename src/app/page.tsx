@@ -6,6 +6,10 @@ import AboutUs from "@/components/Aboutus";
 import AboutUsData from "@/data/about-us.json";
 import Whatsapp from "@/components/Whatsapp";
 import whatsappData from "@/data/whatsapp.json";
+import ServiciosCarousel from "@/components/Services";
+import data from "@/data/servicos.json"
+import ContactList from "@/components/ContactList";
+import contacts from "@/data/contact.json"
 
 export default function Home() {
   return (
@@ -18,6 +22,11 @@ export default function Home() {
           routes={routesJson as Route[]}
         />
       </section>
+      <section className="snap-start"> 
+      <ServiciosCarousel title={data.title} description={data.description} items={data.items} />;
+
+
+      </section>
       <section className="snap-start">
         <AboutUs
           title={AboutUsData.title}
@@ -26,6 +35,9 @@ export default function Home() {
           image2={AboutUsData.images2}
           image3={AboutUsData.images3}
         />
+      </section>
+      <section>
+        <ContactList contacts={contacts}/>
       </section>
       <section className="snap-start">
         <Whatsapp

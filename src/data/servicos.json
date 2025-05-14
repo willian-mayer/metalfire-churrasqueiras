@@ -1,0 +1,31 @@
+{
+    "title": "Nossos serviços",
+    "description": "Conheça nossos serviços especializados que oferecem soluções eficazes para logística, armazenamento e distribuição. Qualidade, confiança e eficiência ao seu alcance.",
+    "items": [
+        {
+            "title": "Churrasqueiras",
+            "image": "/servicos/1.jpg"
+          },
+          {
+              "title": "Lareiras",
+              "image": "/servicos/2.jpg"
+            },
+            {
+              "title": "Coifas",
+              "image": "/servicos/3.png"
+            },
+            {
+              "title": "Acessórios",
+              "image": "/servicos/4.jpg"
+            },
+            {
+              "title": "Chaminés",
+              "image": "/servicos/5.jpg"
+            },
+            {
+              "title": "Serviços",
+              "image": "/servicos/6.jpg"
+            }
+    ]
+
+}

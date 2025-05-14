@@ -18,7 +18,7 @@ export default function AboutUs({
   image3,
 }: AboutUsProps) {
   return (
-    <section className="snap-start flex flex-col md:flex-row items-center justify-center min-h-screen px-6 py-16 bg-white text-black">
+    <section id="about-us" className="snap-start flex flex-col md:flex-row items-center justify-center min-h-screen px-6 py-16 bg-white text-black">
       <div className="flex flex-col md:flex-row items-center max-w-[1400px] w-full mx-auto gap-12">
         {/* Texto */}
         <div className="md:w-1/2 text-center md:text-left">

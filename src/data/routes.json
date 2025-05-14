@@ -1,6 +1,6 @@
 [
-    { "name": "Navbar 1", "path": "#" },
-    { "name": "Navbar 2", "path": "#" },
-    { "name": "Navbar 3", "path": "#" }
+    { "name": "Serviços", "path": "#servicos" },
+    { "name": "Sobre Nós", "path": "#about-us" },
+    { "name": "Contato", "path": "#contato" }
   ]
   

@@ -8,7 +8,6 @@ import ServiciosCarousel from "@/components/Services";
 import data from "@/data/servicos.json"
 import ContactSection from "@/components/ContactSection";
 import contacts from "@/data/contact.json"
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (

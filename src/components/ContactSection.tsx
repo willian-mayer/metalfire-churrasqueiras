@@ -1,7 +1,5 @@
 'use client';
 
-import Footer from "./Footer";
-
 type Contact = {
   name: string;
   title: string;

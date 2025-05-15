@@ -4,12 +4,11 @@ import { Route } from "@/types/routes";
 import heroData from "@/data/hero.json";
 import AboutUs from "@/components/Aboutus";
 import AboutUsData from "@/data/about-us.json";
-import Whatsapp from "@/components/Whatsapp";
-import whatsappData from "@/data/whatsapp.json";
 import ServiciosCarousel from "@/components/Services";
 import data from "@/data/servicos.json"
-import ContactList from "@/components/ContactList";
+import ContactSection from "@/components/ContactSection";
 import contacts from "@/data/contact.json"
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -36,13 +35,8 @@ export default function Home() {
           image3={AboutUsData.images3}
         />
       </section>
-      <section>
-        <ContactList contacts={contacts}/>
-      </section>
-      <section className="snap-start">
-        <Whatsapp
-          {...whatsappData}
-        />
+      <section className="snap-start h-screen">
+      <ContactSection contacts={contacts} />;
       </section>
     </div>
   );

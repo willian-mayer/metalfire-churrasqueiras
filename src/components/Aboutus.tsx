@@ -1,7 +1,8 @@
 "use client";
 
 import Image from "next/image";
-
+import Testimonials from "./Testimonials";
+import testimonials from "../data/testimonials.json";
 type AboutUsProps = {
   title: string;
   description: string;
@@ -24,6 +25,8 @@ export default function AboutUs({
         <div className="md:w-1/2 text-center md:text-left">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">{title}</h2>
           <p className="text-lg md:text-xl">{description}</p>
+          <Testimonials testimonials={testimonials}/>
+
         </div>
 
         {/* Imágenes */}
@@ -65,6 +68,7 @@ export default function AboutUs({
           </div>
         </div>
       </div>
+
     </section>
   );
 }

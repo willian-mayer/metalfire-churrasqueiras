@@ -8,6 +8,7 @@ import ServiciosCarousel from "@/components/Services";
 import data from "@/data/servicos.json"
 import ContactSection from "@/components/ContactSection";
 import contacts from "@/data/contact.json"
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -34,8 +35,9 @@ export default function Home() {
           image3={AboutUsData.images3}
         />
       </section>
-      <section className="snap-start h-screen">
+      <section className="snap-start">
       <ContactSection contacts={contacts} />;
+      <Footer />
       </section>
     </div>
   );

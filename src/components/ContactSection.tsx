@@ -15,7 +15,7 @@ type ContactSectionProps = {
 
 export default function ContactSection({ contacts }: ContactSectionProps) {
   return (
-    <div className="flex flex-col min-h-screen">
+    <div id="contato" className="flex flex-col ">
       {/* CENTRADO DEL CONTENIDO */}
       <main className="flex-grow flex items-center justify-center">
         <section className="w-full max-w-6xl px-4 py-12 grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
@@ -88,9 +88,6 @@ export default function ContactSection({ contacts }: ContactSectionProps) {
           </div>
         </section>
       </main>
-
-      {/* Footer pegado abajo */}
-      <Footer />
     </div>
   );
 }
